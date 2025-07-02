@@ -1,0 +1,6 @@
+selected resource name:		ExportToAllFormats
+selected resource type:		pipeline
+factory name:			ADF-samiksha
+factory location:		southeastasia
+subscription id:		7e4c0afa-5656-4a69-b7af-03aac7136110
+time of download (UTC):		Wed, 02 Jul 2025 18:36:06 GMT

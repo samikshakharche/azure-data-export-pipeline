@@ -1,0 +1,23 @@
+{
+    "name": "CSV_Students",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "BlobStorage_LinkedService_task_1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "container": "export-data-task-1"
+            },
+            "columnDelimiter": ",",
+            "encodingName": "UTF-8",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}

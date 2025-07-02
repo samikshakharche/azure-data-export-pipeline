@@ -1,0 +1,7 @@
+﻿RollNo,Name,Branch,Marks
+1,"Samiksha Kharche","CSE(Data Science)",95
+2,"Aniket Patil","AIML",89
+3,"Rutuja Patil","DS",92
+4,"Durgeshwari Patil","COMP",93
+5,"Dnyanda Mahajan","COMP",86
+6,"Shweta Kharche","ENTC",78

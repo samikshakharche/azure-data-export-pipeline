@@ -1,0 +1,19 @@
+{
+    "name": "Parquet_Students",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "BlobStorage_LinkedService_task_1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "container": "export-data-task-1"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    }
+}

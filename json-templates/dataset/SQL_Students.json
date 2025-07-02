@@ -1,0 +1,35 @@
+{
+    "name": "SQL_Students",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSql_LinkedService_task_1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "RollNo",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Name",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Branch",
+                "type": "nvarchar"
+            },
+            {
+                "name": "Marks",
+                "type": "int",
+                "precision": 10
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "Students"
+        }
+    }
+}
